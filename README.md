@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">A passionate programmer from Iran</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tahanoa" alt="tahanoa" /></a> </p>
-
 - 💬 Ask me about **html-css c++ java**
 
 - 📫 How to reach me **tahafarzaneh3524@gmail.com**
