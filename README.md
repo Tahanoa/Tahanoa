@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">A passionate programmer from Iran</h3>
 
-- 💬 Ask me about **html-css, c++, SQL Server, java**
+- 💬 Ask me about **html-css, c++, SQL Server, java, spring boot**
 
 - 📫 How to reach me **tahafarzaneh3524@gmail.com**
 
