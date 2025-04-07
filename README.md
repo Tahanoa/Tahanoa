@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Taha</h1>
-<h3 align="center">A passionate programmer from Iran</h3>
+<h4 align="center">A passionate programmer from Iran</h3>
 
 - 💬 Ask me about **html-css, c++, SQL Server, java, spring boot**
 
 - 📫 How to reach me **tahafarzaneh3524@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:</h4>
 <p align="left">
 <a href="https://instagram.com/taha_ghost_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="taha_ghost_" height="30" width="40" /></a>
 </p>
