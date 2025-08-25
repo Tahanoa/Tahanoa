@@ -21,7 +21,7 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 
 ⚙️ Im working on
 
-- https://pssb2gh.ir
+- https://sb2gh.ir
 
 ---
 🛠️ Languages & Tools
