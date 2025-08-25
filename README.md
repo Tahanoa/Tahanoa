@@ -1,10 +1,8 @@
-`markdown
+
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">💻 Full-stack Developer | 🇮🇷 Based in Iran</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFB2&center=true&vCenter=true&width=435&lines=Spring+Boot+%7C+PHP+%7C+SQL+%7C+JS;Poetry+%7C+Character+Design+%7C+Survival+Skills;Always+Learning+%26+Building+with+Purpose" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFB2&center=true&vCenter=true&width=435&lines=Java+%7C+Spring+Boot+%7C+SQL+Server;PostgreSQL+%7C+PHP+%7C+C%2B%2B+%7C+JavaScript;Frontend+%26+Backend+Development+%7C+API+Design" />
 
 ---
 
