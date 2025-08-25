@@ -10,11 +10,8 @@
 ### 🧩 About Me
 
 - 🔧 Backend enthusiast with a love for **Spring Boot**, **SQL Server**, and **PostgreSQL**
-- 🌐 Adapting APIs to shared hosting environments with creative problem-solving
 - 🧠 Passionate about **mathematical reasoning**, **poetry**, and **philosophical reflection**
-- 🎭 Designing characters that explore **identity**, **aesthetics**, and **narrative depth**
-- 🌱 Currently working on secure deployment and HTTPS integration for web projects
-
+- 
 ---
 
 ### 💬 Ask Me About
