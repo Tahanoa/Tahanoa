@@ -15,7 +15,7 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 📫 How to Reach Me
 
 - 📧 Email: tahafarzaneh3524@gmail.com
-- 📷 Instagram: @tahaghost
+- 📷 Instagram: @taha_ghost_
 
 ---
 
