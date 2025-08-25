@@ -1,46 +1,44 @@
-<h1 align="center">👨‍💻 Taha | طاها</h1>
+<h1 align="center">Hi 👋, I'm Taha</h1>
+<h3 align="center">A passionate programmer from Iran 🇮🇷</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Spring+Boot+%7C+Java+%7C+PHP;SQL+Server+%7C+PostgreSQL+%7C+API+Design;Always+Learning+%26+Building+🚀" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Java+%7C+Spring+Boot+%7C+SQL+Server;PostgreSQL+%7C+PHP+%7C+C%2B%2B+%7C+JS;Frontend+%26+Backend+Developer+🚀" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🌐 English
+### 💬 Ask Me About
 
-Hi there! I'm **Taha**, a full-stack developer based in Iran 🇮🇷.  
-I specialize in backend development using **Java (Spring Boot)**, **PHP**, and relational databases like **SQL Server** and **PostgreSQL**.  
-I also enjoy working with **HTML**, **CSS**, **JavaScript**, and **C++** for frontend and systems programming.  
-My focus is on building secure APIs, optimizing database performance, and deploying scalable applications.
-
-### 🔧 Tech Stack
-- Backend: `Java`, `Spring Boot`, `PHP`
-- Frontend: `HTML`, `CSS`, `JavaScript`
-- Database: `SQL Server`, `PostgreSQL`
-- Other: `C++`, `Git`, `Shared Hosting`, `HTTPS`
+**HTML/CSS**, **C++**, **SQL Server**, **Java**, **Spring Boot**, **PostgreSQL**, **JavaScript**, **PHP**
 
 ---
 
-## 🌙 فارسی
+### 📫 How to Reach Me
 
-سلام! من **طاها** هستم، توسعه‌دهنده‌ی فول‌استک از ایران 🇮🇷  
-تخصص من در توسعه‌ی بک‌اند با استفاده از **Java (Spring Boot)**، **PHP** و دیتابیس‌های رابطه‌ای مثل **SQL Server** و **PostgreSQL** هست.  
-در کنار اون، با **HTML**، **CSS**، **JavaScript** و **++C** هم کار می‌کنم.  
-تمرکز من روی طراحی APIهای امن، بهینه‌سازی عملکرد دیتابیس و دیپلوی اپلیکیشن‌های مقیاس‌پذیر هست.
-
-### 🛠️ تکنولوژی‌ها
-- بک‌اند: `Java`, `Spring Boot`, `PHP`
-- فرانت‌اند: `HTML`, `CSS`, `JavaScript`
-- دیتابیس: `SQL Server`, `PostgreSQL`
-- سایر: `++C`, `Git`, `هاست اشتراکی`, `HTTPS`
+📧 **tahafarzaneh3524@gmail.com**
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
+### 🔗 Connect with Me
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=dark" alt="GitHub Streak" />
+<p align="left">
+  <a href="https://instagram.com/taha_ghost_" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" width="30" height="30"/>
+  </a>
 </p>
 
 ---
+
+### 🛠️ Languages and Tools
+
+<p align="left">
+  <a href="https://www.w3schools.com/cpp/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/></a>
+  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
+  <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
+  <a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"><img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" height="40"/></a>
+  <a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40"/></a>
+  <a href="https://postman.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40" height="40"/></a>
+  <a href="https://spring.io/" target="_blank"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="40" height="40"/></a>
+</p>
