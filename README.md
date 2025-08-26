@@ -24,6 +24,13 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 - https://sb2gh.ir
 
 ---
+
+🔎 learning 
+
+- spring security
+- python
+
+---
 🛠️ Languages & Tools
 
 <p align="left">
