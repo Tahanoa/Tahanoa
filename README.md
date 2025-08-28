@@ -1,3 +1,4 @@
+![Nyan Cat](https://media.tenor.com/Mwzug9zxYh0AAAAj/nyan-cat-every-nyan.gif)
 
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">💻 Full-stack Developer | 🇮🇷 Based in Iran</h3>
