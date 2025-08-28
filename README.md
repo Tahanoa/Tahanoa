@@ -1,4 +1,3 @@
-<div class="tenor-gif-embed" data-postid="3678577245769785885" data-share-method="host" data-aspect-ratio="2.18421" data-width="100%"><a href="https://tenor.com/view/nyan-cat-every-nyan-cat-rainbow-scene-gif-3678577245769785885">Nyan Cat Every Nyan Sticker</a>from <a href="https://tenor.com/search/nyan+cat-stickers">Nyan Cat Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">💻 Full-stack Developer | 🇮🇷 Based in Iran</h3>
