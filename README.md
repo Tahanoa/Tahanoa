@@ -49,7 +49,7 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 
 🧠 Fun Fact
 
-> "I write code like I write poetry—structured, expressive, and always searching for meaning." ![Nyan Cat](https://media.tenor.com/Mwzug9zxYh0AAAAj/nyan-cat-every-nyan.gif)
-
+> "I write code like I write poetry—structured, expressive, and always searching for meaning." 
 
 ---
+![Nyan Cat](https://media.tenor.com/Mwzug9zxYh0AAAAj/nyan-cat-every-nyan.gif)
