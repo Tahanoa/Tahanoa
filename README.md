@@ -1,5 +1,3 @@
-![Nyan Cat](https://media.tenor.com/Mwzug9zxYh0AAAAj/nyan-cat-every-nyan.gif)
-
 <h1 align="center">Hi 👋, I'm Taha</h1>
 <h3 align="center">💻 Full-stack Developer | 🇮🇷 Based in Iran</h3>
 
@@ -51,6 +49,7 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 
 🧠 Fun Fact
 
-> "I write code like I write poetry—structured, expressive, and always searching for meaning."
+> "I write code like I write poetry—structured, expressive, and always searching for meaning." ![Nyan Cat](https://media.tenor.com/Mwzug9zxYh0AAAAj/nyan-cat-every-nyan.gif)
+
 
 ---
