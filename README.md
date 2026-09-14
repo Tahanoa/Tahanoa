@@ -7,7 +7,7 @@
 
 💬 Ask Me About
 
-HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Server • PostgreSQL
+HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Server • PostgreSQL • spring security
 
 ---
 
@@ -28,7 +28,6 @@ HTML • CSS • JavaScript • Java • Spring Boot • C++ • PHP • SQL Ser
 
 🔎 learning 
 
-- spring security
 - python
 
 ---
