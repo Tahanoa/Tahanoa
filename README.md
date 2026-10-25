@@ -55,88 +55,107 @@
 </div>
 
 <!-- TECH DASHBOARD -->
-### ┌─── [ TECH_STACK // INSTALLED_MODULES ]
-
 <div align="center">
-
-#### ⚡ BACKEND ENGINEERING
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-101512?style=for-the-badge&logo=java&logoColor=4FAF79" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-101512?style=for-the-badge&logo=springboot&logoColor=4FAF79" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring_MVC-101512?style=for-the-badge&logo=spring&logoColor=4FAF79" alt="Spring MVC" />
-  <img src="https://img.shields.io/badge/Spring_Security-101512?style=for-the-badge&logo=springsecurity&logoColor=4FAF79" alt="Spring Security" />
-  <img src="https://img.shields.io/badge/REST_API-101512?style=for-the-badge&logo=fastapi&logoColor=4FAF79" alt="REST API" />
-  <img src="https://img.shields.io/badge/JWT_Auth-101512?style=for-the-badge&logo=jsonwebtokens&logoColor=4FAF79" alt="JWT Auth" />
-  <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-101512?style=for-the-badge&logo=hibernate&logoColor=4FAF79" alt="JPA / Hibernate" />
-  <img src="https://img.shields.io/badge/PHP-101512?style=for-the-badge&logo=php&logoColor=4FAF79" alt="PHP" />
-  <img src="https://img.shields.io/badge/Node.js_(Exploratory)-101512?style=for-the-badge&logo=nodedotjs&logoColor=4FAF79" alt="Node.js" />
-</p>
-
-#### 🌐 FRONTEND ENGINEERING
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-101512?style=for-the-badge&logo=html5&logoColor=4FAF79" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-101512?style=for-the-badge&logo=css3&logoColor=4FAF79" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-101512?style=for-the-badge&logo=javascript&logoColor=4FAF79" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Thymeleaf-101512?style=for-the-badge&logo=thymeleaf&logoColor=4FAF79" alt="Thymeleaf" />
-  <img src="https://img.shields.io/badge/Bootstrap-101512?style=for-the-badge&logo=bootstrap&logoColor=4FAF79" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-101512?style=for-the-badge&logo=tailwindcss&logoColor=4FAF79" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Responsive_Design-101512?style=for-the-badge&logo=html5&logoColor=4FAF79" alt="Responsive Design" />
-</p>
-
-#### 🗄️ DATABASES & DATA
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-101512?style=for-the-badge&logo=postgresql&logoColor=4FAF79" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MS_SQL_Server-101512?style=for-the-badge&logo=microsoftsqlserver&logoColor=4FAF79" alt="MS SQL Server" />
-  <img src="https://img.shields.io/badge/Data_Modeling-101512?style=for-the-badge&logo=diagramsdotnet&logoColor=4FAF79" alt="Data Modeling" />
-  <img src="https://img.shields.io/badge/JPA_Relationships-101512?style=for-the-badge&logo=hibernate&logoColor=4FAF79" alt="JPA Relationships" />
-  <img src="https://img.shields.io/badge/phpMyAdmin-101512?style=for-the-badge&logo=phpmyadmin&logoColor=4FAF79" alt="phpMyAdmin" />
-</p>
-
-#### 🧩 WORDPRESS & E-COMMERCE
-<p align="center">
-  <img src="https://img.shields.io/badge/WordPress-101512?style=for-the-badge&logo=wordpress&logoColor=4FAF79" alt="WordPress" />
-  <img src="https://img.shields.io/badge/Elementor-101512?style=for-the-badge&logo=elementor&logoColor=4FAF79" alt="Elementor" />
-  <img src="https://img.shields.io/badge/WooCommerce-101512?style=for-the-badge&logo=woocommerce&logoColor=4FAF79" alt="WooCommerce" />
-  <img src="https://img.shields.io/badge/WP_Hosting_%2F_Deploy-101512?style=for-the-badge&logo=wordpress&logoColor=4FAF79" alt="WordPress Hosting" />
-  <img src="https://img.shields.io/badge/WP_Security_%2F_Optimization-101512?style=for-the-badge&logo=wordpress&logoColor=4FAF79" alt="WordPress Security" />
-</p>
-
-#### 🛠️ DEVOPS, INFRASTRUCTURE & DEPLOYMENT
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-101512?style=for-the-badge&logo=linux&logoColor=4FAF79" alt="Linux" />
-  <img src="https://img.shields.io/badge/SSH-101512?style=for-the-badge&logo=openssh&logoColor=4FAF79" alt="SSH" />
-  <img src="https://img.shields.io/badge/Nginx-101512?style=for-the-badge&logo=nginx&logoColor=4FAF79" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Docker-101512?style=for-the-badge&logo=docker&logoColor=4FAF79" alt="Docker" />
-  <img src="https://img.shields.io/badge/Docker_Compose-101512?style=for-the-badge&logo=docker&logoColor=4FAF79" alt="Docker Compose" />
-  <img src="https://img.shields.io/badge/Cloudflare-101512?style=for-the-badge&logo=cloudflare&logoColor=4FAF79" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/SSL_%2F_TLS_Proxy-101512?style=for-the-badge&logo=letsencrypt&logoColor=4FAF79" alt="SSL / TLS Proxy" />
-  <img src="https://img.shields.io/badge/Git-101512?style=for-the-badge&logo=git&logoColor=4FAF79" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-101512?style=for-the-badge&logo=github&logoColor=4FAF79" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Maven-101512?style=for-the-badge&logo=apachemaven&logoColor=4FAF79" alt="Maven" />
-  <img src="https://img.shields.io/badge/Postman-101512?style=for-the-badge&logo=postman&logoColor=4FAF79" alt="Postman" />
-</p>
-
-#### 🤖 AUTOMATION & SERVERLESS
-<p align="center">
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-101512?style=for-the-badge&logo=cloudflareworkers&logoColor=4FAF79" alt="Cloudflare Workers" />
-  <img src="https://img.shields.io/badge/Cloudflare_D1-101512?style=for-the-badge&logo=cloudflared1&logoColor=4FAF79" alt="Cloudflare D1" />
-  <img src="https://img.shields.io/badge/Telegram_Bot_API-101512?style=for-the-badge&logo=telegram&logoColor=4FAF79" alt="Telegram Bot" />
-  <img src="https://img.shields.io/badge/Webhooks-101512?style=for-the-badge&logo=webhooks&logoColor=4FAF79" alt="Webhooks" />
-  <img src="https://img.shields.io/badge/Scheduled_Jobs-101512?style=for-the-badge&logo=cron&logoColor=4FAF79" alt="Scheduled Jobs" />
-</p>
-
-#### 🎮 SIDE QUESTS & CREATIVE TOOLS
-<p align="center">
-  <img src="https://img.shields.io/badge/Moho_2D-101512?style=for-the-badge&logo=adobe&logoColor=4FAF79" alt="Moho" />
-  <img src="https://img.shields.io/badge/Godot_Engine-101512?style=for-the-badge&logo=godotengine&logoColor=4FAF79" alt="Godot Engine" />
-</p>
-
-#### 🎓 CURRENTLY LEARNING
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-101512?style=for-the-badge&logo=python&logoColor=4FAF79" alt="Python" />
-</p>
-
+  <img src="assets/skills-header.gif" alt="TECH_STACK // INSTALLED_MODULES" width="100%" />
 </div>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_01 // BACKEND_ENGINEERING ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Java-07110B?style=for-the-badge&logo=java&logoColor=00FF66" alt="Java" />
+        <img src="https://img.shields.io/badge/Spring_Boot-07110B?style=for-the-badge&logo=springboot&logoColor=00FF66" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Spring_MVC-07110B?style=for-the-badge&logo=spring&logoColor=00FF66" alt="Spring MVC" />
+        <img src="https://img.shields.io/badge/Spring_Security-07110B?style=for-the-badge&logo=springsecurity&logoColor=00FF66" alt="Spring Security" />
+        <img src="https://img.shields.io/badge/REST_APIs-07110B?style=for-the-badge&logo=fastapi&logoColor=00FF66" alt="REST APIs" />
+        <img src="https://img.shields.io/badge/JWT_Auth-07110B?style=for-the-badge&logo=jsonwebtokens&logoColor=00FF66" alt="JWT Auth" />
+        <img src="https://img.shields.io/badge/JPA_%2F_Hibernate-07110B?style=for-the-badge&logo=hibernate&logoColor=00FF66" alt="JPA / Hibernate" />
+        <img src="https://img.shields.io/badge/PHP-07110B?style=for-the-badge&logo=php&logoColor=00FF66" alt="PHP" />
+        <img src="https://img.shields.io/badge/Node.js_(Exploratory)-07110B?style=for-the-badge&logo=nodedotjs&logoColor=00FF66" alt="Node.js" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_02 // FRONTEND_ENGINEERING ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-07110B?style=for-the-badge&logo=html5&logoColor=00FF66" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-07110B?style=for-the-badge&logo=css3&logoColor=00FF66" alt="CSS3" />
+        <img src="https://img.shields.io/badge/JavaScript-07110B?style=for-the-badge&logo=javascript&logoColor=00FF66" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Thymeleaf-07110B?style=for-the-badge&logo=thymeleaf&logoColor=00FF66" alt="Thymeleaf" />
+        <img src="https://img.shields.io/badge/Bootstrap-07110B?style=for-the-badge&logo=bootstrap&logoColor=00FF66" alt="Bootstrap" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-07110B?style=for-the-badge&logo=tailwindcss&logoColor=00FF66" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/Responsive_Design-07110B?style=for-the-badge&logo=html5&logoColor=00FF66" alt="Responsive Design" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_03 // DATABASES_AND_DATA ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-07110B?style=for-the-badge&logo=postgresql&logoColor=00FF66" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/SQL_Server-07110B?style=for-the-badge&logo=microsoftsqlserver&logoColor=00FF66" alt="MS SQL Server" />
+        <img src="https://img.shields.io/badge/Data_Modeling-07110B?style=for-the-badge&logo=diagramsdotnet&logoColor=00FF66" alt="Data Modeling" />
+        <img src="https://img.shields.io/badge/JPA_Relationships-07110B?style=for-the-badge&logo=hibernate&logoColor=00FF66" alt="JPA Relationships" />
+        <img src="https://img.shields.io/badge/phpMyAdmin-07110B?style=for-the-badge&logo=phpmyadmin&logoColor=00FF66" alt="phpMyAdmin" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_04 // WORDPRESS_AND_ECOMMERCE ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/WordPress-07110B?style=for-the-badge&logo=wordpress&logoColor=00FF66" alt="WordPress" />
+        <img src="https://img.shields.io/badge/Elementor-07110B?style=for-the-badge&logo=elementor&logoColor=00FF66" alt="Elementor" />
+        <img src="https://img.shields.io/badge/WooCommerce-07110B?style=for-the-badge&logo=woocommerce&logoColor=00FF66" alt="WooCommerce" />
+        <img src="https://img.shields.io/badge/WP_Hosting_%2F_Deploy-07110B?style=for-the-badge&logo=wordpress&logoColor=00FF66" alt="WP Hosting" />
+        <img src="https://img.shields.io/badge/WP_Security_%2F_Optimization-07110B?style=for-the-badge&logo=wordpress&logoColor=00FF66" alt="WP Security" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_05 // DEVOPS_INFRASTRUCTURE_DEPLOYMENT ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Linux-07110B?style=for-the-badge&logo=linux&logoColor=00FF66" alt="Linux" />
+        <img src="https://img.shields.io/badge/SSH-07110B?style=for-the-badge&logo=openssh&logoColor=00FF66" alt="SSH" />
+        <img src="https://img.shields.io/badge/Nginx-07110B?style=for-the-badge&logo=nginx&logoColor=00FF66" alt="Nginx" />
+        <img src="https://img.shields.io/badge/Docker-07110B?style=for-the-badge&logo=docker&logoColor=00FF66" alt="Docker" />
+        <img src="https://img.shields.io/badge/Docker_Compose-07110B?style=for-the-badge&logo=docker&logoColor=00FF66" alt="Docker Compose" />
+        <img src="https://img.shields.io/badge/Cloudflare-07110B?style=for-the-badge&logo=cloudflare&logoColor=00FF66" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/SSL_%2F_TLS-07110B?style=for-the-badge&logo=letsencrypt&logoColor=00FF66" alt="SSL / TLS" />
+        <img src="https://img.shields.io/badge/Git-07110B?style=for-the-badge&logo=git&logoColor=00FF66" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-07110B?style=for-the-badge&logo=github&logoColor=00FF66" alt="GitHub" />
+        <img src="https://img.shields.io/badge/Maven-07110B?style=for-the-badge&logo=apachemaven&logoColor=00FF66" alt="Maven" />
+        <img src="https://img.shields.io/badge/Postman-07110B?style=for-the-badge&logo=postman&logoColor=00FF66" alt="Postman" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_06 // AUTOMATION_AND_SERVERLESS ]</code></b> &nbsp; <code>● ONLINE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Cloudflare_Workers-07110B?style=for-the-badge&logo=cloudflareworkers&logoColor=00FF66" alt="Cloudflare Workers" />
+        <img src="https://img.shields.io/badge/Cloudflare_D1-07110B?style=for-the-badge&logo=cloudflared1&logoColor=00FF66" alt="Cloudflare D1" />
+        <img src="https://img.shields.io/badge/Telegram_Bot_API-07110B?style=for-the-badge&logo=telegram&logoColor=00FF66" alt="Telegram Bot API" />
+        <img src="https://img.shields.io/badge/Webhooks-07110B?style=for-the-badge&logo=githubactions&logoColor=00FF66" alt="Webhooks" />
+        <img src="https://img.shields.io/badge/Scheduled_Jobs-07110B?style=for-the-badge&logo=clock&logoColor=00FF66" alt="Scheduled Jobs" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_07 // CREATIVE_TOOLS_SIDE_PROJECTS ]</code></b> &nbsp; <code>● ACTIVE</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Moho-07110B?style=for-the-badge&logo=adobe&logoColor=00FF66" alt="Moho" />
+        <img src="https://img.shields.io/badge/Godot-07110B?style=for-the-badge&logo=godotengine&logoColor=00FF66" alt="Godot" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><b><code>[ MOD_08 // CURRENTLY_LEARNING ]</code></b> &nbsp; <code>⚡ SYNCING</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-07110B?style=for-the-badge&logo=python&logoColor=00FF66" alt="Python" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="assets/divider.gif" alt="Divider" width="100%" />
