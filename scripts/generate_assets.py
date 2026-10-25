@@ -6,14 +6,13 @@ from PIL import Image, ImageDraw, ImageFont
 # Ensure assets directory exists
 os.makedirs('assets', exist_ok=True)
 
-# Color Palette
+# Color Palette (Matching TAHANOA Identity)
 BG_COLOR = (3, 6, 5)          # #030605
-BG_SEC_COLOR = (7, 17, 11)     # #07110B
+BG_PANEL_COLOR = (7, 17, 11)   # #07110B
 NEON_GREEN = (0, 255, 102)     # #00FF66
 EMERALD = (0, 200, 83)         # #00C853
-MUTED_GREEN = (114, 168, 137)  # #72A889
 PRIMARY_TEXT = (230, 255, 237) # #E6FFED
-SEC_TEXT = (156, 183, 163)     # #9CB7A3
+MUTED_TEXT = (114, 168, 137)   # #72A889
 DARK_GREEN = (15, 35, 22)      # Cyber dark green
 
 # Try to load mono fonts
@@ -32,6 +31,8 @@ font_title_big = load_font(FONT_PATH_SANS_BOLD, 52)
 font_sub = load_font(FONT_PATH_MONO_BOLD, 16)
 font_tags = load_font(FONT_PATH_MONO_BOLD, 12)
 font_mascot = load_font(FONT_PATH_MONO_BOLD, 11)
+font_section_title = load_font(FONT_PATH_MONO_BOLD, 20)
+font_section_sub = load_font(FONT_PATH_MONO, 11)
 
 # --- 1. HERO BANNER GENERATOR ---
 def generate_hero_banner():
@@ -63,7 +64,7 @@ def generate_hero_banner():
             y_pos = (col_y[i] + frame * col_speed[i]) % (height + 40) - 20
             char = col_chars[(frame + i) % len(col_chars)]
             # Draw tail
-            draw.text((col_x[i], y_pos - 15), char, fill=MUTED_GREEN, font=font_header)
+            draw.text((col_x[i], y_pos - 15), char, fill=MUTED_TEXT, font=font_header)
             draw.text((col_x[i], y_pos), char, fill=NEON_GREEN, font=font_header)
 
         # Draw tech border
@@ -88,9 +89,9 @@ def generate_hero_banner():
         draw.line([(width - margin, height - margin), (width - margin, height - margin - corner_len)], fill=NEON_GREEN, width=3)
 
         # Top Header Bar
-        draw.rectangle([(margin + 15, margin + 8), (width - margin - 15, margin + 32)], fill=BG_SEC_COLOR, outline=DARK_GREEN)
+        draw.rectangle([(margin + 15, margin + 8), (width - margin - 15, margin + 32)], fill=BG_PANEL_COLOR, outline=DARK_GREEN)
         header_text = " [ SYSTEM // TAHANOA_OS v4.2.0 ]   [ STATUS: ONLINE ]   [ LOC: IRAN ]"
-        draw.text((margin + 25, margin + 12), header_text, fill=MUTED_GREEN, font=font_header)
+        draw.text((margin + 25, margin + 12), header_text, fill=MUTED_TEXT, font=font_header)
 
         # Pulse indicator in header
         pulse_color = NEON_GREEN if (frame // 3) % 2 == 0 else EMERALD
@@ -129,8 +130,8 @@ def generate_hero_banner():
         tag_y = 210
         for tag in tags:
             tag_fmt = f"[ {tag} ]"
-            draw.rectangle([(tag_x, tag_y), (tag_x + len(tag_fmt)*8 + 10, tag_y + 22)], fill=BG_SEC_COLOR, outline=DARK_GREEN)
-            draw.text((tag_x + 6, tag_y + 3), tag_fmt, fill=SEC_TEXT, font=font_tags)
+            draw.rectangle([(tag_x, tag_y), (tag_x + len(tag_fmt)*8 + 10, tag_y + 22)], fill=BG_PANEL_COLOR, outline=DARK_GREEN)
+            draw.text((tag_x + 6, tag_y + 3), tag_fmt, fill=MUTED_TEXT, font=font_tags)
             tag_x += len(tag_fmt)*8 + 24
 
         # Scanning line animation sweep
@@ -165,10 +166,10 @@ def generate_mascot():
 
         # Tech frame
         draw.rectangle([(5, 5), (width - 5, height - 5)], outline=DARK_GREEN, width=1)
-        draw.rectangle([(8, 8), (width - 8, height - 8)], outline=BG_SEC_COLOR, width=2)
+        draw.rectangle([(8, 8), (width - 8, height - 8)], outline=BG_PANEL_COLOR, width=2)
 
         # Label header
-        draw.rectangle([(15, 12), (width - 15, 30)], fill=BG_SEC_COLOR)
+        draw.rectangle([(15, 12), (width - 15, 30)], fill=BG_PANEL_COLOR)
         draw.text((22, 14), "[ DAEMON: TAHA_GHOST ]", fill=NEON_GREEN, font=font_mascot)
 
         # Floating vertical bobbing offset
@@ -181,15 +182,15 @@ def generate_mascot():
         draw.ellipse([(cx - 45, cy - 35), (cx + 45, cy + 40)], fill=(8, 30, 20))
 
         # Ears
-        draw.polygon([(cx - 30, cy - 30), (cx - 15, cy - 48), (cx - 5, cy - 25)], fill=BG_SEC_COLOR, outline=NEON_GREEN)
-        draw.polygon([(cx + 5, cy - 25), (cx + 15, cy - 48), (cx + 30, cy - 30)], fill=BG_SEC_COLOR, outline=NEON_GREEN)
+        draw.polygon([(cx - 30, cy - 30), (cx - 15, cy - 48), (cx - 5, cy - 25)], fill=BG_PANEL_COLOR, outline=NEON_GREEN)
+        draw.polygon([(cx + 5, cy - 25), (cx + 15, cy - 48), (cx + 30, cy - 30)], fill=BG_PANEL_COLOR, outline=NEON_GREEN)
 
         # Inner ear glow
         draw.polygon([(cx - 24, cy - 32), (cx - 15, cy - 42), (cx - 10, cy - 28)], fill=EMERALD)
         draw.polygon([(cx + 10, cy - 28), (cx + 15, cy - 42), (cx + 24, cy - 32)], fill=EMERALD)
 
         # Head / Body Hood
-        draw.ellipse([(cx - 35, cy - 30), (cx + 35, cy + 30)], fill=BG_SEC_COLOR, outline=NEON_GREEN, width=2)
+        draw.ellipse([(cx - 35, cy - 30), (cx + 35, cy + 30)], fill=BG_PANEL_COLOR, outline=NEON_GREEN, width=2)
 
         # Cyber Visor / Glasses
         visor_y = cy - 8
@@ -204,10 +205,10 @@ def generate_mascot():
         draw.line([(cx - 6, cy + 12), (cx, cy + 15), (cx + 6, cy + 12)], fill=NEON_GREEN, width=2)
 
         # Whisker Cyber Antenna Lines
-        draw.line([(cx - 32, cy - 2), (cx - 45, cy - 8)], fill=MUTED_GREEN, width=1)
-        draw.line([(cx - 32, cy + 6), (cx - 48, cy + 6)], fill=MUTED_GREEN, width=1)
-        draw.line([(cx + 32, cy - 2), (cx + 45, cy - 8)], fill=MUTED_GREEN, width=1)
-        draw.line([(cx + 32, cy + 6), (cx + 48, cy + 6)], fill=MUTED_GREEN, width=1)
+        draw.line([(cx - 32, cy - 2), (cx - 45, cy - 8)], fill=MUTED_TEXT, width=1)
+        draw.line([(cx - 32, cy + 6), (cx - 48, cy + 6)], fill=MUTED_TEXT, width=1)
+        draw.line([(cx + 32, cy - 2), (cx + 45, cy - 8)], fill=MUTED_TEXT, width=1)
+        draw.line([(cx + 32, cy + 6), (cx + 48, cy + 6)], fill=MUTED_TEXT, width=1)
 
         # Spectral Ghost Tail / Bottom wisps
         for wisp in range(5):
@@ -223,7 +224,7 @@ def generate_mascot():
             draw.rectangle([(px, py), (px + 2, py + 2)], fill=NEON_GREEN)
 
         # Status footer
-        draw.text((22, height - 22), "STATUS: SYSTEM ACTIVE", fill=SEC_TEXT, font=font_mascot)
+        draw.text((22, height - 22), "STATUS: SYSTEM ACTIVE", fill=MUTED_TEXT, font=font_mascot)
 
         frames.append(img)
 
@@ -253,8 +254,8 @@ def generate_divider():
         draw.line([(40, cy), (width - 40, cy)], fill=EMERALD, width=1)
 
         # End nodes
-        draw.rectangle([(10, cy - 4), (18, cy + 4)], fill=BG_SEC_COLOR, outline=NEON_GREEN)
-        draw.rectangle([(width - 18, cy - 4), (width - 10, cy + 4)], fill=BG_SEC_COLOR, outline=NEON_GREEN)
+        draw.rectangle([(10, cy - 4), (18, cy + 4)], fill=BG_PANEL_COLOR, outline=NEON_GREEN)
+        draw.rectangle([(width - 18, cy - 4), (width - 10, cy + 4)], fill=BG_PANEL_COLOR, outline=NEON_GREEN)
 
         # Moving pulse light packet
         pulse_x = int(20 + (frame / num_frames) * (width - 40))
@@ -263,7 +264,7 @@ def generate_divider():
         for tail in range(15):
             tx = pulse_x - tail * 3
             if 20 <= tx <= width - 20:
-                alpha_color = (0, 255 - tail * 15, 102 - tail * 5)
+                alpha_color = (0, max(0, 255 - tail * 15), max(0, 102 - tail * 5))
                 draw.line([(tx, cy), (tx + 3, cy)], fill=alpha_color, width=3)
 
         # Main Pulse Node
@@ -282,8 +283,80 @@ def generate_divider():
     )
     print("Generated assets/divider.gif")
 
+# --- 4. ANIMATED SKILLS SECTION HEADER GENERATOR ---
+def generate_skills_header():
+    width, height = 850, 85
+    num_frames = 24
+    frames = []
+
+    random.seed(1337)
+    particles = [{'x': random.randint(20, width - 20), 'y': random.randint(10, height - 10), 'speed': random.choice([2, 3, 4])} for _ in range(12)]
+
+    for frame in range(num_frames):
+        img = Image.new("RGB", (width, height), BG_COLOR)
+        draw = ImageDraw.Draw(img)
+
+        # Background panel frame
+        draw.rectangle([(5, 5), (width - 5, height - 5)], fill=BG_PANEL_COLOR, outline=DARK_GREEN, width=1)
+        draw.rectangle([(8, 8), (width - 8, height - 8)], outline=EMERALD, width=1)
+
+        # Tech Corner Brackets
+        c_len = 12
+        # Top-Left
+        draw.line([(5, 5), (5 + c_len, 5)], fill=NEON_GREEN, width=2)
+        draw.line([(5, 5), (5, 5 + c_len)], fill=NEON_GREEN, width=2)
+        # Top-Right
+        draw.line([(width - 5, 5), (width - 5 - c_len, 5)], fill=NEON_GREEN, width=2)
+        draw.line([(width - 5, 5), (width - 5, 5 + c_len)], fill=NEON_GREEN, width=2)
+        # Bottom-Left
+        draw.line([(5, height - 5), (5 + c_len, height - 5)], fill=NEON_GREEN, width=2)
+        draw.line([(5, height - 5), (5, height - 5 - c_len)], fill=NEON_GREEN, width=2)
+        # Bottom-Right
+        draw.line([(width - 5, height - 5), (width - 5 - c_len, height - 5)], fill=NEON_GREEN, width=2)
+        draw.line([(width - 5, height - 5), (width - 5, height - 5 - c_len)], fill=NEON_GREEN, width=2)
+
+        # Top Bar status metadata
+        draw.text((20, 14), "┌─── [ TECH_STACK // INSTALLED_MODULES ]", fill=NEON_GREEN, font=font_section_title)
+
+        status_str = "[ 08 MODULES LOADED ]  [ SYSTEM_STATUS: OPTIMAL ]"
+        draw.text((width - 340, 18), status_str, fill=MUTED_TEXT, font=font_section_sub)
+
+        # Animated Pulse Dot
+        dot_color = NEON_GREEN if (frame // 4) % 2 == 0 else EMERALD
+        draw.ellipse([(width - 355, 21), (width - 347, 29)], fill=dot_color)
+
+        # Subtitle / Terminal hint
+        draw.text((22, 52), "> ACTIVE_COMPONENTS // 38 TECHNOLOGIES REGISTERED AND VERIFIED", fill=PRIMARY_TEXT, font=font_section_sub)
+
+        # Floating digital particles (data stream)
+        for p in particles:
+            px = (p['x'] + frame * p['speed']) % (width - 30) + 15
+            draw.rectangle([(px, p['y']), (px + 2, p['y'] + 2)], fill=EMERALD)
+
+        # Scanning Line animation across header
+        scan_x = int((frame / num_frames) * width)
+        draw.line([(scan_x, 6), (scan_x, height - 6)], fill=NEON_GREEN, width=2)
+        draw.line([(scan_x - 3, 6), (scan_x - 3, height - 6)], fill=(0, 200, 83), width=1)
+
+        # Glitch effect on frame 7 & 19
+        if frame in [7, 19]:
+            draw.line([(10, 42), (width - 10, 42)], fill=NEON_GREEN, width=1)
+
+        frames.append(img)
+
+    frames[0].save(
+        "assets/skills-header.gif",
+        save_all=True,
+        append_images=frames[1:],
+        optimize=True,
+        duration=90,
+        loop=0
+    )
+    print("Generated assets/skills-header.gif")
+
 if __name__ == "__main__":
     generate_hero_banner()
     generate_mascot()
     generate_divider()
+    generate_skills_header()
     print("All assets successfully generated!")
